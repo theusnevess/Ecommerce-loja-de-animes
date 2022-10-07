@@ -1,0 +1,35 @@
+.rodape {
+    background-color: #2A7AE4;
+    width: 100%;
+}
+
+.rodape p {
+    color: aliceblue;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 0px) {
+    .rodape {
+        max-width: 576px;
+        width: 100%;
+    }
+
+    .rodape p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .rodape {
+        max-width: 768px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rodape {
+        max-width: 1440px;
+        width: 100%;
+    }
+}

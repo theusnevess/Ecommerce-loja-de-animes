@@ -1,0 +1,148 @@
+.produto {
+    display: flex;
+    
+    height: 500px;
+    width: 100%;
+}
+
+.produto__imagem {
+    margin-top: 50px;
+    padding-left: 20px;
+
+    height: 400px;
+}
+
+.produto__informacoes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.produto__informacoes-nome {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 180px;
+    margin-bottom: 20px;
+}
+
+.produto__informacoes-preco {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.produto__informacoes-preco s {
+    font-size: 15px;
+    font-weight: 300;
+    margin-right: 5px;
+}
+
+.produto__informacoes-descricao {
+    padding-right: 250px;
+}
+
+.produto__informacoes-botaoComprar {
+    background-color: green;
+    border: none;
+    margin-top: 30px;
+    margin-right: 650px;
+    padding: 5px;   
+}
+
+
+
+@media screen and (min-width: 0px) {
+    .produto {
+        width: 576px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 90px;
+    }
+    
+    .produto__imagem {
+        width: 280px;
+        height: 230px;
+    }
+
+    .produto__informacoes-nome {
+        margin-top: 30px;
+    }
+
+    .produto__informacoes-descricao {
+        font-size: 14px;
+        padding: 0 30px;
+        margin-bottom: 20px;
+        margin-right: 25px;
+    }
+
+    .produto__informacoes-botaoComprar {
+        font-size: 18px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .produto {
+        width: 768px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 120px;
+    }
+    
+    .produto__imagem {
+        width: 350px;
+        height: 300px;
+    }
+
+    .produto__informacoes-nome {
+        margin-top: 30px;
+    }
+
+    .produto__informacoes-descricao {
+        font-size: 16px;
+        padding: 0 90px;
+        margin-bottom: 20px;
+    }
+
+    .produto__informacoes-botaoComprar {
+        font-size: 26px;
+        margin: auto;
+    } 
+}
+
+@media screen and (min-width: 768px) {
+    .produto {
+        width: 1044px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    
+    .produto__imagem {
+        width: 550px;
+        height: 400px;
+        margin-left: 50px;
+    }
+
+    .produto__informacoes-nome {
+        margin-top: 32px;
+        font-size: 26px;;
+    }
+
+    .produto__informacoes-descricao {
+        font-size: 18px;
+        padding: 0 90px;
+        margin-bottom: 20px;
+    }
+
+    .produto__informacoes-botaoComprar {
+        font-size: 26px;
+        margin: auto;
+    } 
+}

@@ -1,0 +1,144 @@
+.secaoCamisetas {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+    width: 100%;
+    height: 390px;
+}
+
+.secaoCamisetas__cabecalho {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.secaoCamisetas__cabecalho-titulo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+
+.secaoCamisetas__cabecalho-botao {
+    background-color: #E5E5E5;  
+    border: none;
+    color: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 10px;
+}
+
+.secaoCamisetas__cabecalho-botao img {
+    margin-left: 5px;
+    height: 12px;
+    width: 16px;
+}
+
+.secaoCamisetas__cabecalho-botao:hover {
+    cursor: pointer;
+}
+
+.secaoCamisetas__produtos {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+
+.secaoCamisetas__produtos-itens {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.secaoCamisetas__produtos___itens-imagem {
+    width: 180px;
+    height: 240px;
+}
+
+.secaoCamisetas__produtos___itens-nome {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.secaoCamisetas__produtos___itens-preco {
+    margin-bottom: 10px;
+}
+
+.secaoCamisetas__produtos___itens-preco s {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.secaoCamisetas__produtos___itens-link {
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+.secaoCamisetas__produtos___itens-link a {
+    margin-top: 50px;
+}
+
+
+@media screen and (min-width: 0px) {
+    .secaoCamisetas {
+        width: 576px;
+        height: 1100px;
+    }
+
+    .secaoCamisetas__cabecalho-titulo {
+        font-size: 25px;
+    }
+
+    .secaoCamisetas__cabecalho {
+        padding-left:10px;
+    }
+
+    .secaoDiversos__cabecalho-botao {
+        margin-right: 40px;
+    }
+
+    .secaoCamisetas__produtos {
+        flex-wrap: wrap;
+    }
+
+    .secaoCamisetas__produtos-itens {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .secaoCamisetas {
+        width: 768px;
+        height: 800px;
+    }
+
+    .secaoCamisetas__cabecalho-titulo {
+        font-size: 28px;
+    }
+
+    .secaoCamisetas__produtos {
+        flex-wrap: wrap;
+    }
+
+    .secaoCamisetas__produtos-itens {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .secaoCamisetas {
+        width: 1440px;
+        height: 390px;
+    }
+
+    .secaoCamisetas__produtos {
+        flex-wrap: nowrap;
+    }
+}

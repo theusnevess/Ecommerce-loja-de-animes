@@ -1,0 +1,110 @@
+.banner {
+    width: 1440px;
+    height: 400px;  
+}
+
+
+.banner__imagem {
+    width: 100%;
+    height: 400px;
+    filter: brightness(20%)
+}
+
+.banner__container {
+    padding: 0 50px;
+    align-items: center;
+    margin-top: -230px;
+}
+
+.banner__container-titulo {
+    position: relative;
+    color: #E5E5E5;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    margin-bottom: 30px;
+}
+
+.banner__container-subtitulo {
+    position: relative;
+    color: #E5E5E5;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.banner__container-botao {
+    position: relative;
+    background-color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    color: #E5E5E5;
+    height: 40px;
+    width: 100px;
+}
+
+.banner__container-botao:hover {
+    text-decoration: underline;
+}
+
+
+
+@media screen and (min-width: 0px) {
+    .banner {
+        max-width: 576px;
+        width: 100%;
+    }
+
+    .banner__container {
+        padding: 0 10px;
+        align-items: center;
+        margin-top: -230px;
+    }
+
+    .banner__imagem {
+        position: relative;
+        background-image: url('../img/bannerMobile.jpg');
+    }
+
+    .banner__container-titulo {
+        font-size: 30px;
+    }
+
+    .banner__container-subtitulo {
+        font-size: 16px;
+    }
+
+    .banner__container-botao {
+        height: 30px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .banner {
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .banner__container-titulo {
+        font-size: 40px;
+    }
+
+    .banner__container-subtitulo {
+        font-size: 23px;
+    }
+
+    .banner__container-botao {
+        height: 35px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner {
+        max-width: 1440px;
+        width: 100%;
+    }
+}

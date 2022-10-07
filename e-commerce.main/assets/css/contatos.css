@@ -1,0 +1,204 @@
+.contatos {
+    background-color: #CCE6F4;
+    padding: 50px 0px;
+
+    width: 100%;
+    height: 250px;
+}
+
+.contatos__nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+
+    width: 100%;
+    height: 250px;
+}
+
+.contatos__nav-logo {
+    display: flex;
+    padding: 15px;
+}
+
+.contatos__nav p {
+    font-family: 'Pacifico', cursive;
+    color: #2A7AE4;
+    font-size: 30px;
+}
+
+.contatos__nav-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.contatos__nav-links a {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 23px;
+    text-decoration: none;
+}
+
+.contatos__nav-links a:hover {
+    text-decoration: underline;
+}
+
+.contatos__nav-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.contatos__nav-formTitulo {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contatos__nav-formNome {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.contatos__nav-formNome label {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.contatos__nav-formNome textarea {
+    resize: none;
+
+    width: 400px;
+    height: 30px;
+}
+
+.contatos__nav-formMensagem {
+    margin-bottom: 10px;
+    resize: none;
+
+    width: 400px;
+    height: 60px;
+}
+
+.contatos__nav-formBotao {
+    background-color: #2A7AE4;
+    border: none;
+    color: aliceblue;
+
+    width: 150px;
+    height: 30px;
+}
+
+a .contatos__nav-formBotao:hover {
+    text-decoration: underline;
+}
+
+
+
+@media screen and (min-width: 0px) {
+    .contatos {
+        max-width: 576px;
+        width: 100%;
+        height: 550px;
+        padding-top: 10px;
+        padding-bottom: 1px;
+    }
+
+    .contatos__nav {
+        flex-direction: column;
+        padding: 140px 0;
+    }
+
+    .contatos__nav-links {
+        text-align: center;
+        margin-bottom: 20px;
+    } 
+
+    .contatos__nav-links a {
+        font-size: 14px;
+    }
+
+    .contatos__nav-formNome textarea {
+        width: 450px;
+    }
+
+    .contatos__nav-formMensagem {
+        width: 450px;
+    }    
+}
+
+@media screen and (min-width: 576px) {
+    .contatos {
+        max-width: 768px;
+        width: 100%;
+        height: 250px;
+    }   
+
+    .contatos__nav {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0 auto;
+        padding: 0px;
+
+        width: 100%;
+        height: 250px;
+    }
+
+    .contatos__nav-links {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    } 
+
+    .contatos__nav-links a {
+        font-size: 15px;
+    }
+
+    .contatos__nav-formNome textarea {
+        width: 270px;
+    }
+
+    .contatos__nav-formMensagem {
+        width: 270px;
+    } 
+}
+
+@media screen and (min-width: 768px) {
+    .contatos {
+        padding: 30px 0;
+        max-width: 1440px;
+        width: 100%;
+        height: 250px;
+    }
+
+    .contatos__nav {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0 auto;
+
+        width: 100%;
+        height: 250px;
+    }
+
+    .contatos__nav-links {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .contatos__nav-links a {
+        font-size: 19px;
+    }
+
+    .contatos__nav-formNome textarea {
+        width: 400px;
+    }
+
+    .contatos__nav-formMensagem {
+        width: 400px;
+    } 
+}
+

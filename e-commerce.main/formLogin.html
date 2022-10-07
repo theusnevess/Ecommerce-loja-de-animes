@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Login</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/formLogin.css">
+    <link rel="stylesheet" href="./assets/css/contatos.css">
+    <link rel="stylesheet" href="./assets/css/rodape.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__nav">
+            <div class="cabecalho__nav___logo">
+                <img src="./assets/img/controle-logo.svg" alt="" srcset="">
+                <p>M.N</p>
+                <img src="./assets/img/geek-logo.svg" alt="" srcset="">
+            </div>
+
+            <div class="cabecalho__nav___input">
+                <div class="cabecalho__nav___input-itens">
+                    <input class="cabecalho__nav___input-itensInput" type="text" placeholder="O que deseja encontrar?">
+                    <a href="#" class="cabecalho__nav___input-itensBotao"><img src="./assets/img/lupa-input.svg" alt="" srcset=""></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="formLogin">
+            <div class="formLogin__container">
+                <h1 class="formLogin__container-titulo">
+                    Iniciar sessão
+                </h1>
+
+                <input id="email" type="email" name="email" placeholder="Escreva seu email" class="formLogin__container-inputs" required></input>
+
+                <input id="senha" type="password" name="senha" placeholder="Escreva sua senha" class="formLogin__container-inputs" required></input>
+
+                <button id="botaoEntrar" type="submit" class="formLogin__container-botaoEntrar">Entrar</button>
+
+            </div>
+        </section>
+
+        <section class="contatos">
+            <nav class="contatos__nav">
+                <div class="contatos__nav-logo">
+                    <img src="./assets/img/controle-logo.svg" alt="" srcset="">
+                    <p>M.N</p>
+                    <img src="./assets/img/geek-logo.svg" alt="" srcset="">
+                </div>
+
+                <div class="contatos__nav-links">
+                    <a href="#">Quem somos nós</a>
+                    <a href="#">Política de privacidade</a>
+                    <a href="#">Programa fidelidade</a>
+                    <a href="#">Nossas lojas</a>
+                    <a href="#">Quero ser franqueado</a>
+                    <a href="#">Anuncie aqui</a>
+                </div>
+
+                <form class="contatos__nav-form">
+                    <h5 class="contatos__nav-formTitulo">Fale conosco</h5>
+
+                    <div class="contatos__nav-formNome">
+                        <label for="">Nome</label>
+                        <textarea name="nome" id="nome" placeholder="Nome" required></textarea>
+                    </div>
+
+                    <textarea class="contatos__nav-formMensagem" name="mensagem" id="mensagem" placeholder="Escreva sua mensagem" required></textarea>
+
+                    <a href="#"><button class="contatos__nav-formBotao">Enviar mensagem</button></a>
+                </form>
+            </nav>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Matheus Neves <br> 2022 <br> matheusneves1204@gmail.com</p>
+    </footer>
+</body>
+
+    <script src="./assets/js/login/formLogin.js"></script>
+</html>

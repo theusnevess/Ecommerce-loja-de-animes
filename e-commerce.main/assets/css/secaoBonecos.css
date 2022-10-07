@@ -1,0 +1,153 @@
+.secaoBonecos {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+    width: 100%;
+    height: 390px;
+}
+
+.secaoBonecos__cabecalho {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.secaoBonecos__cabecalho-titulo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+
+.secaoBonecos__cabecalho-botao {
+    background-color: #E5E5E5;  
+    border: none;
+    color: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 10px;
+}
+
+.secaoBonecos__cabecalho-botao img {
+    margin-left: 5px;
+    height: 12px;
+    width: 16px;
+}
+
+.secaoBonecos__cabecalho-botao:hover {
+    cursor: pointer;
+}
+
+
+.secaoBonecos__produtos {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+
+
+.secaoBonecos__produtos-itens {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.secaoBonecos__produtos___itens-imagem {
+    width: 180px;
+    height: 240px;
+}
+
+.secaoBonecos__produtos___itens-nome {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.secaoBonecos__produtos___itens-preco {
+    margin-bottom: 10px;
+}
+
+.secaoBonecos__produtos___itens-preco s {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.secaoBonecos__produtos___itens-link {
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+.secaoBonecos__produtos___itens-link a {
+    margin-top: 50px;
+}
+
+
+
+@media screen and (min-width: 0px) {
+    .secaoBonecos {
+        width: 576px;
+        height: 1120px;;
+    }
+
+    .secaoBonecos__cabecalho-titulo {
+        font-size: 25px;
+    }
+
+    .secaoBonecos__cabecalho {
+        padding-left: 10px;
+    }
+
+    .secaoDiversos__cabecalho-botao {
+        margin-right: 40px;
+    }
+
+    .secaoBonecos__produtos {
+        flex-wrap: wrap;
+    }
+
+    .secaoBonecos__produtos-itens {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .secaoBonecos {
+        width: 768px;
+        height: 800px;
+    } 
+
+    .secaoBonecos__cabecalho-titulo {
+        font-size: 28px;
+    }
+
+    .secaoBonecos__produtos {
+        flex-wrap: wrap;
+    }
+
+    .secaoBonecos__produtos-itens {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .secaoBonecos {
+        width: 1440px;
+        height: 390px;
+    }
+
+    .secaoBonecos__produtos {
+        flex-wrap: nowrap;
+    }
+}
+
+
+
+
+

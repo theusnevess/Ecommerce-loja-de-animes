@@ -1,0 +1,187 @@
+.cabecalho {
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    
+    width: 100%;
+    height: 115px;
+}
+
+.cabecalho__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho__nav___logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cabecalho__nav___logo p {
+    font-family: 'Pacifico', cursive;
+    color: #2A7AE4;
+    font-size: 30px;
+}
+
+.cabecalho__nav___input {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+
+    width: 393px;
+    height: 30px;
+}
+
+.cabecalho__nav___input-itens {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    align-items: center;
+    padding: 5px 15px;
+
+    height: 80%;
+    width: 100%;
+}
+
+.cabecalho__nav___input-itensInput {
+    background-color: #F5F5F5;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+
+.cabecalho__nav___input-itensInput:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+
+.cabecalho__botao-login {
+    background-color: #E5E5E5;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    width: 150px;
+    height: 50px;
+}
+
+.cabecalho__botao-login:hover {
+    text-decoration: underline;
+}
+
+
+
+@media screen and (min-width: 0px) {
+    .cabecalho {
+
+        width: 576px;
+        height: 100px;
+    }
+
+    .cabecalho__nav {
+        display: flex;   
+    }
+
+    .cabecalho__nav___logo {
+        padding-left: 10px;
+    }
+
+    .cabecalho__nav___logo img:nth-child(1) {
+        width: 30px;
+    }
+    
+    .cabecalho__nav___logo  p {
+        font-size: 18px;
+    }
+
+    .cabecalho__nav___logo img:nth-child(3) {
+        width: 40px;
+    }
+
+    .cabecalho__nav___input {
+        width: 220px;
+    }
+
+    .cabecalho__botao-login {
+        width: 90px;
+        height: 30px;
+        margin-top: 10px;
+        margin-right: 40px;
+    }
+
+    .cabecalho__botao {
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: row;
+        width: 768px;
+    }
+
+    .cabecalho__nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cabecalho__nav,
+    .cabecalho__botao {
+        padding: 0 25px;
+    }
+
+    .cabecalho__nav___input {
+        width: 240px;
+        height: 30px;
+    }
+
+    .cabecalho__botao-login {
+        width: 100px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1440px;
+        width: 100%;
+    }
+
+    .cabecalho__nav,
+    .cabecalho__botao {
+        padding: 0 50px;
+    }
+
+    .cabecalho__nav___input {
+        width: 393px;
+        height: 30px;
+    }
+
+    .cabecalho__botao-login {
+        width: 150px;
+        height: 50px;
+    }
+}
